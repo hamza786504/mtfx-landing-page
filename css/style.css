@@ -18,11 +18,11 @@ ul{
     margin-bottom: 0;
 }
 :root{
-    --red: #ff4141;
+    --primary: #f89522;
     --dark-gray: #fbfafb;
 }
 .color-red{
-    color: var(--red);
+    color: var(--primary);
 }
 .header{
     height: 90px;
@@ -40,7 +40,7 @@ ul{
     max-height: 50px;
 }
 .hamburger{
-    background-color: var(--red);
+    background-color: var(--primary);
     height: 40px;
     width: 50px;
     display: flex;
@@ -67,20 +67,20 @@ ul{
     font-weight: 500;
 }
 .header .menu li a:hover{
-    color: var(--red);
+    color: var(--primary);
 }
 .header .menu li:last-child{
     margin-right: 0px;
 }
 .header .cta button , #about button , #services button , #faq button , #pricing button , #news button , .cta button{
-    background-color: var(--red);
+    background-color: var(--primary);
     border: none;
     padding: 8px 30px;
     border-radius: 30px;
     color: white;
 }
 .cta .btn-outline-primary{
-    color: var(--red) !important;
+    color: var(--primary) !important;
     background-color: transparent !important;
 }
 
@@ -107,7 +107,7 @@ ul{
     margin-bottom: 10px;
 }
 .sidebar ul li a:hover {
-    color: var(--red);
+    color: var(--primary);
 }
 
 /* Show sidebar when hamburger menu is clicked */
@@ -139,7 +139,7 @@ ul{
 
 #pricing .primary_card button{
     background-color: white !important;
-    color: var(--red);
+    color: var(--primary);
 }
 #pricing .primary_card .icon{
     color: white;
@@ -155,14 +155,14 @@ ul{
     padding-bottom: 40px;
 }
 .section_name{
-    color: var(--red);
+    color: var(--primary);
     display: inline-block;
 }
 .section_name span{
     margin-top: 10px;
     width: 50px;
     height: 3px;
-    background-color: var(--red);
+    background-color: var(--primary);
     display: block;
     content: "";
 }
@@ -170,7 +170,7 @@ ul{
     font-size: 3.5rem;
 }
 .heading span{
-    color: var(--red);
+    color: var(--primary);
 }
 .app_links img{
     width: 120px;
@@ -203,7 +203,7 @@ section{
     max-width: 100%;
 }
 .icon{
-    color: var(--red);
+    color: var(--primary);
     font-size: 35px;
 }
 .icon_coverbox{
@@ -238,7 +238,7 @@ section{
     border-radius: 6px;
 }
 .services .primary_card, .services .primary_card .icon , .pricing .primary_card{
-    background-color: var(--red) !important;
+    background-color: var(--primary) !important;
     color: white !important;
 }
 
@@ -251,8 +251,8 @@ section{
 .faq .accordion-header button{
     background-color: transparent !important;
     border-radius: 4px !important;
-    color: var(--red) !important;
-    border: 1px solid var(--red) !important;
+    color: var(--primary) !important;
+    border: 1px solid var(--primary) !important;
 }
 
 
@@ -309,7 +309,7 @@ section{
     font-size: 50px;
 }
 .pricing_table p{
-    color: var(--red);
+    color: var(--primary);
 }
 .pricing_table.primary_card p{
     color: white;
@@ -345,7 +345,7 @@ section{
     color: black;
 }
 .news .news_heading:hover{
-    color: var(--red);
+    color: var(--primary);
 }
 .news .author , .news .date{
     color: #a0a0a0;
@@ -392,7 +392,7 @@ section{
 }
 .input_cover button{
     border: none;
-    background-color: var(--red);
+    background-color: var(--primary);
     color: white;
     height: 45px;
     padding-left: 20px;
@@ -417,7 +417,7 @@ section{
 
 
 .footer_cover {
-    background-color: #ad2b2b;
+    background-color: var(--primary);
     padding: 5em 0 0 0;
 }
 
@@ -486,7 +486,7 @@ footer .icons .icon{
     border-radius: 50%;
     height: 40px;
     aspect-ratio: 1;
-    color: var(--red);
+    color: var(--primary);
     display: flex;
     align-items: center;
     justify-content: center;
