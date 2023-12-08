@@ -23,7 +23,7 @@
   <body>
     <!-- header -->
     <header class="header" id="header">
-      <div class="container-lg d-flex align-items-center justify-content-between">
+      <div class="container d-flex align-items-center justify-content-between">
         <div class="logo_cover">
           <img src="images/logo-2.svg" class="logo" alt="logo" />
         </div>
@@ -66,7 +66,7 @@
     </div>
 
     <div class="banner">
-      <div class="container-lg">
+      <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 col-12">
             <div class="banner_text">
@@ -127,84 +127,31 @@
                   Established in 1996.
                 </li>
               </ul>
-              <div class="d-none d-lg-flex text-center cta" style="width: 100%;">
-                <button class="btn btn-primary mt-3">Sign Up</button>
-              </div>
             </div>
           </div>
-          <div class="col-md-6 col-12 mt-4 mt-md-0">
+          <div class="col-md-6 col-12">
             <div class="banner_form">
               <form action="">
                 <h5>Transfer amount</h5>
-                <div class="form_field p-3 d-flex align-items-center justify-content-between">
+                <div
+                  class="form_field p-3 d-flex align-items-center justify-content-between"
+                >
                   <div class="select_box">
-                    <div id="fromCurrencySelected" class="select_currency_from d-flex align-items-center justify-content-start">
-                      <img src="https://uat-content.mtfxgroup.com/uploads/gb_6f7be5bb59.svg" width="30px" style="margin-right: 2px;" alt="" /> GBP
+                    <div class="select_box_value d-flex align-items-center justify-content-center">
+                      <img src="https://uat-content.mtfxgroup.com/uploads/gb_6f7be5bb59.svg" class="flag" alt="" />
+                      <img src="https://uat-content.mtfxgroup.com/uploads/ca_e7c88ab831.svg" class="flag" alt="" />
+                      <img src="https://uat-content.mtfxgroup.com/uploads/us_fe22e367c0.svg" class="flag" alt="" />
                     </div>
-                    <div class="fromCurrencyDropdown">
-                      <input type="text" class="searchBar" placeholder="Search country">
-                      <ul class="dropdownList">
-                        <!-- List items will be dynamically added here using JavaScript -->
-                      </ul>
-                    </div>
+                    <div class="selecbox_dropdown"></div>
                   </div>
                   <input
                     type="number"
+                    style="overflow-y: hidden;"
                     name="required_amount"
                     id="required_amount"
                     class="editable_text"
                     value="10000"
                   />
-                </div>
-
-                <div class="exchange_rates p-3 my-4">
-                  <div class="d-flex align-items-center mb-3 justify-content-between">
-                    <span class="disabled_text font-bold">Exchange rate</span>
-                    <span class="disabled_text font-bold">1.2474 / 0.8016</span>
-                  </div>
-                  <div class="d-flex align-items-center mb-3 justify-content-between">
-                    <span class="text-primary text-md font-bold">Exchange rate</span>
-                    <span class="text-primary text-md font-bold">1.2474 / 0.8016</span>
-                  </div>
-                  <div class="d-flex align-items-center mb-0 justify-content-between">
-                    <span class="disabled_text font-bold">Enjoy extra saving on your first FX transfer</span>
-                  </div>
-                </div>
-                <div class="exchange_rates p-3 my-4">
-                  <div class="d-flex align-items-center mb-3 justify-content-between">
-                    <span class="disabled_text font-bold">MTFX fee*</span>
-                    <span class="disabled_text font-bold">+ £0 GBP</span>
-                  </div>
-                  <div class="d-flex align-items-center mb-3 justify-content-between">
-                    <span class="text-primary text-md font-bold">Total amount you pay</span>
-                    <span class="text-primary text-md font-bold">£10,000GBP</span>
-                  </div>
-                </div>
-
-                <h5>Recipient Gets</h5>
-                <div class="form_field p-3 d-flex align-items-center justify-content-between">
-                  <div class="select_box">
-                    <div id="toCurrencySelected" class="select_currency_to d-flex align-items-center justify-content-start">
-                      <img src="https://uat-content.mtfxgroup.com/uploads/us_fe22e367c0.svg" style="width: 30px; margin-right: 2px;" alt="" /> USD
-                    </div>
-                    <div class="toCurrencyDropdown">
-                      <input type="text" class="searchBar" placeholder="Search country">
-                      <ul class="dropdownList">
-                        <!-- List items will be dynamically added here using JavaScript -->
-                      </ul>
-                    </div>
-                  </div>
-                  <input
-                    type="number"
-                    name="estimate_amount"
-                    id="estimate_amount"
-                    class="editable_text"
-                    value="10000"
-                  />
-                </div>
-                <p class="mx-auto text-center mt-3 mb-1 text-dark">Already an MTFX client? <span class="text-primary">Login</span></p>
-                <div class="d-none d-lg-flex text-center cta" style="width: 100%;">
-                  <button class="btn btn-primary mt-3 mx-auto">Sign Up</button>
                 </div>
               </form>
             </div>
@@ -235,7 +182,7 @@
                 >
                   <div class="col mt-4">
                     <div class="service_card">
-                      <img src="https://uat-content.mtfxgroup.com/uploads/mtfx_card_1_bc046c0939.svg" class="icon" alt="icon" />
+                      <img src="images/icon-1.png" class="icon" alt="icon" />
                       <h4 class="mt-3">Bank Beating Rates</h4>
                       <p>
                         Lower your conversion costs and keep more of your money.
@@ -245,7 +192,7 @@
                   <div class="col mt-4">
                     <div class="service_card primary_card">
                       <img
-                        src="./images/icon-2.svg"
+                        src="images/icon-2-white.png"
                         class="icon"
                         alt="icon"
                       />
@@ -258,7 +205,7 @@
                   </div>
                   <div class="col mt-4">
                     <div class="service_card">
-                      <img src="https://uat-content.mtfxgroup.com/uploads/mtfx_card_3_a81e218679.svg" class="icon" alt="icon" />
+                      <img src="images/icon-3.png" class="icon" alt="icon" />
                       <h4 class="mt-3">24/7 Online Money Transfers</h4>
                       <p>
                         Check rates, view balances and transfer money online
@@ -274,7 +221,7 @@
                 >
                   <div class="col mt-4">
                     <div class="service_card">
-                      <img src="https://uat-content.mtfxgroup.com/uploads/mtfx_card_4_28034098b1.svg" class="icon" alt="icon" />
+                      <img src="images/icon-4.png" class="icon" alt="icon" />
                       <h4 class="mt-3">Global Payment Experts</h4>
                       <p>
                         Our team will help ensure your transfers get to where
@@ -284,7 +231,7 @@
                   </div>
                   <div class="col mt-4">
                     <div class="service_card">
-                      <img src="https://uat-content.mtfxgroup.com/uploads/mtfx_card_5_790e71ca16.svg" class="icon" alt="icon" />
+                      <img src="images/icon-5.png" class="icon" alt="icon" />
                       <h4 class="mt-3">The Preferred Choice</h4>
                       <p>
                         Since 1996, we’ve being helping individuals and business
@@ -294,7 +241,7 @@
                   </div>
                   <div class="col mt-4">
                     <div class="service_card">
-                      <img src="https://uat-content.mtfxgroup.com/uploads/mtfx_card_6_88beb49379.svg" class="icon" alt="icon" />
+                      <img src="images/icon-6.png" class="icon" alt="icon" />
                       <h4 class="mt-3">Transact with Confidence</h4>
                       <p>
                         MTFX has been in business for over 25 years. We are
@@ -338,7 +285,7 @@
           <div class="col-lg-4 col-sm-6 mt-4">
             <div class="post_cover text-center">
               <div class="post_image_cover text-center">
-                <img src="images/icon-7.svg" class="post_image" alt="post" />
+                <img src="images/icon-7.png" class="post_image" alt="post" />
               </div>
               <h3 class="news_heading">Open an account</h3>
               <p class="mt-2">
@@ -350,7 +297,7 @@
           <div class="col-lg-4 col-sm-6 mt-4">
             <div class="post_cover text-center">
               <div class="post_image_cover text-center">
-                <img src="images/icon-8.svg" class="post_image" alt="post" />
+                <img src="images/icon-8.png" class="post_image" alt="post" />
               </div>
               <h3 class="news_heading">Book a great rate</h3>
               <p class="mt-2">
@@ -363,7 +310,7 @@
           <div class="col-lg-4 col-sm-6 mt-4">
             <div class="post_cover text-center">
               <div class="post_image_cover text-center">
-                <img src="images/icon-9.svg" class="post_image" alt="post" />
+                <img src="images/icon-9.png" class="post_image" alt="post" />
               </div>
               <h3 class="news_heading">We’ll do the rest</h3>
               <p class="mt-2">
@@ -607,8 +554,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-
-    <script src="js/script.js"></script>
 
     <script>
       window.addEventListener("scroll", function () {

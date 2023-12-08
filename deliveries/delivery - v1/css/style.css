@@ -78,13 +78,11 @@ ul{
     padding: 8px 30px;
     border-radius: 30px;
     color: white;
-    border: 1px solid var(--primary);
-    font-weight: bold;
 }
-.banner button{
-    color: black;
+.cta .btn-outline-primary{
+    color: var(--primary) !important;
+    background-color: transparent !important;
 }
-
 
 
 /* Mobile sidebar styles */
@@ -338,7 +336,6 @@ section{
     margin: 0 auto;
     margin-bottom: 10px;
     border-radius: 10px;
-    max-width: 100px;
 }
 .news .news_heading{
     font-size: 25px;
@@ -420,7 +417,7 @@ section{
 
 
 .footer_cover {
-    background-color: #393939;
+    background-color: var(--primary);
     padding: 5em 0 0 0;
 }
 
@@ -474,9 +471,7 @@ section{
     color: rgba(255, 255, 255, 0.5) !important;
     margin-bottom: 0;
 }
-.service_card .icon{
-    max-width: 80px;
-}
+
 
 .about_icons{
     flex-direction: row;
@@ -491,7 +486,7 @@ footer .icons .icon{
     border-radius: 50%;
     height: 40px;
     aspect-ratio: 1;
-    color: #393939;
+    color: var(--primary);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -531,11 +526,8 @@ footer a{
     margin: 0 auto;
 }
 .form_field{
-    border: 1px solid rgb(214, 214, 214);
+    border: 1px solid #929292;
     border-radius: 8px;
-}
-.form_field.readonly{
-    background-color: #f7f7f7;
 }
 .editable_text{
     flex-grow: 1;
@@ -559,93 +551,9 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-.flag{
-    max-width: 30px;
-}
 
 
 
-
-.btn-primary{
-    color: #393939 !important;
-}
-.cta .btn-outline-primary , .partners .btn-primary:hover , .banner button:hover , header .btn-primary:hover , .services .btn-primary:hover{
-    color: var(--primary) !important;
-    background-color: transparent !important;
-    border: 1px solid var(--primary);
-}
-
-/* Add your styles for the custom dropdown here */
-    .form_field {
-      position: relative;
-      display: inline-block;
-    }
-
-    .select_box {
-      display: flex;
-      align-items: center;
-      position: relative;
-    }
-
-    .fromCurrencyDropdown,
-    .toCurrencyDropdown {
-      position: absolute;
-      background-color: #fff;
-      border: 1px solid #ccc;
-      z-index: 1;
-      width: 200px; /* Set the width as needed */
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      border-radius: 4px;
-      overflow: hidden;
-      display: none;
-    }
-
-    .searchBar,
-    .dropdownList {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    .searchBar {
-      width: 100%;
-      padding: 8px;
-      box-sizing: border-box;
-      border: 1px solid #ccc;
-      border-bottom: none;
-    }
-
-    .dropdownList li {
-      padding: 10px;
-      cursor: pointer;
-    }
-
-    #fromCurrencySelected,
-    #toCurrencySelected {
-      margin-right: 10px;
-      cursor: pointer;
-    }
-
-    #required_amount,
-    #estimate_amount {
-      overflow-y: hidden;
-    }
-  .exchange_rates{
-    border-radius: 8px;
-    background-color: #eeeeee;
-  }
-  .disabled_text{
-    color: #929292;
-  }
-  .font-bold{
-    font-weight: 600;
-  }
-  .text-primary{
-    color: var(--primary) !important;
-  }
-  .text-md{
-    font-size: 20px;
-  }
 
 
 
