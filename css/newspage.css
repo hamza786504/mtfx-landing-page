@@ -1,3 +1,9 @@
+/* styles.css */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 :root {
   --primary: #f89522;
   --dark-gray: #fbfafb;
@@ -150,8 +156,57 @@ a {
 .key_event td:nth-child(1) {
   width: 40px;
 }
+.text-green{
+  color: #138E02 !important;
+  font-weight: 400;
+}
+.text-danger{
+  color: #E4240D !important;
+  font-weight: 400;
+}
+
+.stats .styled_head th{
+  width: 20% !important;
+}
+.stats .styled_head th:first-child{
+  min-width: 100px !important;
+}
+.stats th{
+  font-size: 16px !important;
+}
+.cta_banner{
+  background: linear-gradient(270deg, #fba80e , #f3861f);
+  padding: 25px 0;
+
+}
+.white_btn{
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  color: var(--primary);
+  font-weight: 500;
+}
+.post_cover{
+  border: 2px solid #EBEBEB;
+}
+
+
+
 
 @media screen and (min-width: 768px) {
+  .stats .styled_head th{
+    width: 25% !important;
+  }
+  .stats th:first-child , .stats th:last-child{
+    width: 100px !important;
+  }
+  .stats td , .stats th{
+    font-size: 20px !important;
+  }
+  .stats .styled_head th:nth-child(3){
+    width: auto;
+  }
   .styled_head h3 {
     font-size: 29px;
     padding: 8px 0;
